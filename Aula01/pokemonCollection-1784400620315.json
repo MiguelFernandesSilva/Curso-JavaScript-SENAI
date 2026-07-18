@@ -1,0 +1,50 @@
+[
+  {
+    "color": "default",
+    "type": "mudkip",
+    "size": "medium",
+    "name": "Millie",
+    "generation": "gen3",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "charizard",
+    "size": "medium",
+    "name": "Oscar",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "rayquaza",
+    "size": "medium",
+    "name": "Simba",
+    "generation": "gen3",
+    "originalSpriteSize": 64
+  },
+  {
+    "color": "default",
+    "type": "celebi",
+    "size": "medium",
+    "name": "Leo",
+    "generation": "gen2",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "taillow",
+    "size": "medium",
+    "name": "Lucy",
+    "generation": "gen3",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "arceus_water",
+    "size": "medium",
+    "name": "Milo",
+    "generation": "gen4",
+    "originalSpriteSize": 64
+  }
+]
