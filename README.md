@@ -4,7 +4,7 @@ Conteúdos do Curso de JavaScript do SENAI
 ## Aulas Completas:
 
 - Aula 01: Introdução ✅
-- Aula 02: ???
+- Aula 02: Projetinhos de Cálculo ✅
 - Aula 03: ???
 - Aula 04: ???
 - Aula 05: ???
@@ -15,4 +15,4 @@ Conteúdos do Curso de JavaScript do SENAI
 
 
 ## Progresso:
-01/09 Completas!
+02/09 Completas!
