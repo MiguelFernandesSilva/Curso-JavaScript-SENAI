@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <div class="conteudo">
+
+      <a href="../index.html" class="voltar">← Voltar</a>
+
+      <h1> Calculadora de <span>IMC</span></h1>
+      <p class="descricao">Informe seus dados para calcular e classificar seu IMC.</p>
+
+      <label>Nome</label>
+      <input type="text" placeholder="Seu nome">
+
+      <label>Altura (em metros)</label>
+      <input type="number" placeholder="Ex: 1.70" step="0.01" id="altura">
+
+      <label>Peso (em kg)</label>
+      <input type="number" placeholder="Ex: 70" id="peso">
+
+      <button onclick="calcularIMC()">Calcular IMC</button>
+
+      <div class="resultado" id="resultado">
+        O resultado aparecerá aqui
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Prof. Fernando Leonid</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030712;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+h1 span {
+  color: #facc15;
+}
+
+.subtitulo {
+  color: #d1d5db;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.lista-exercicios {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lista-exercicios a {
+  border: 1px solid #facc15;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.lista-exercicios span:nth-of-type(2){
+    font-size: 32px;
+}
+
+.lista-exercicios a:hover {
+  background-color: #facc15;
+  color: #000;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+}
+
+footer p {
+  color: #d1d5db;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+}

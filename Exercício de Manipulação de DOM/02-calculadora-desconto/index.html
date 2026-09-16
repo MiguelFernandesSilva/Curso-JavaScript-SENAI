@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Desconto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="conteudo">
+
+      <a href="../index.html" class="voltar">← Voltar</a>
+
+      <h1>Calculadora de <span>Desconto</span></h1>
+      <p class="descricao">Informe o preço e o percentual de desconto.</p>
+
+      <label>Preço Original (R$)</label>
+      <input type="number" placeholder="Ex: 200" id="precoOriginal">
+
+      <label>Desconto (%)</label>
+      <input type="number" placeholder="Ex: 15" id="desconto">
+
+      <button onclick="calcularDesconto()">Calcular</button>
+
+      <div class="resultado" id="resultado">
+        O resultado aparecerá aqui
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Prof. Fernando Leonid</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
