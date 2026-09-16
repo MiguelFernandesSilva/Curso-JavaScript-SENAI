@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="container">
+        <h1> Calculadora Básica </h1>
+        <div class="visor" id="visor"> 0 </div>
+        <input type="number" class="input-box" id="number1" placeholder="Número 1" required>
+        <input type="number" class="input-box" id="number2" placeholder="Número 2" required>
+        <div class="button-area">
+            <div>
+                <button type="button" id="soma" class="operation-button"> Somar </button>
+                <button type="button" id="sub" class="operation-button"> Subtrair </button>
+            </div>
+            <div>
+                <button type="button" id="multi" class="operation-button"> Multiplicar </button>
+                <button type="button" id="div" class="operation-button"> Divisão </button>
+            </div>
+        </div>
+    </form>
+    <script src="./script.js" defer></script>
+</body>
+</html>

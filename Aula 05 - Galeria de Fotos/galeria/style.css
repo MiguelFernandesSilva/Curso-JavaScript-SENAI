@@ -1,0 +1,32 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+.galeria{
+    column-count: 3;
+}
+
+.galeria img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.formulario{
+    display: flex;
+}
+
+.formulario input{
+    width: 80%;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.formulario button{
+    height: 100%;
+    padding: 12px;
+}

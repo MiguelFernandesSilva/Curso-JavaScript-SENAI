@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg: #f4f6fa;
+    --bg2: #eef2fb;
+    --bg3: #fafbfd;
+    --bg-blue: #4F5DFF;
+    --border: #e5eaf2;
+}
+
+body{
+    background: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #1F2937;
+}
+
+#container{
+    width: 1100px;
+    height: 650px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0,.08);
+    display: flex;
+    overflow: hidden;
+}
+
+.left-side{
+    width: 35%;
+    padding: 45px;
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.left-side hr{
+    border: none;
+    height: 2px;
+    background: var(--bg2);
+    margin-bottom: 35px;
+}
+
+#forms{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.input-camp{
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg3);
+    font-size: 15px;
+    transition: .25s;
+}
+
+.input-camp:focus{
+    border-color: var(--bg-blue);
+    box-shadow: 0 0 0 4px rgba(79,93,255,.15);
+    background: white;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: var(--bg-blue);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.submit-btn:hover{
+    background: #3F4CE0;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(79,93,255,.30);
+}
+
+.right-side{
+    width: 65%;
+    padding: 45px;
+}
+
+.right-side h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+}
+thead{
+    background: #EEF2FB;
+}
+thead th{
+    text-align: left;
+    padding: 18px;
+    color: #374151;
+    font-weight: 600;
+}
+tbody td{
+    padding: 18px;
+    border-bottom: 1px solid var(--border);
+}
+tbody tr{
+    transition: .25s;
+}
+tbody tr:last-child td{
+    border-bottom: none;
+}

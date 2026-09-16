@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Produtos </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="left-side">
+            <h1> Cadastro </h1>
+            <hr>
+            <form id="forms">
+                <label for="produto"> Produto </label> <br>
+                <input type="text" name="produto" placeholder="Digite o Nome do Produto" class="input-camp" id="productName" required> <br>
+                <label for="quantidade"> Quantidade </label> <br>
+                <input type="text" name="quantidade" placeholder="Digite a Quantidade do Produto" class="input-camp" id="productQuant" required> <br>
+                <label for="preco"> Preço </label> <br>
+                <input type="number" name="preco" placeholder="Digite o Preço do Produto" class="input-camp" id="productValue" required> <br>
+                <button type="button" class="submit-btn" id="submitBtn"> Cadastrar </button>
+            </form>
+        </div>
+        <div class="right-side">
+            <h1> Produtos </h1>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th> Código </th>
+                        <th> Produto </th>
+                        <th> Quantidade </th>
+                        <th> Preço </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./main.js" defer></script>
+</body>
+</html>
